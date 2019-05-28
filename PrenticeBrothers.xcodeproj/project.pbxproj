@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		51FEDAB72299B1970000690A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FEDAB62299B1970000690A /* AppDelegate.swift */; };
-		51FEDAB92299B1970000690A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FEDAB82299B1970000690A /* ViewController.swift */; };
+		51FEDAB92299B1970000690A /* initialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FEDAB82299B1970000690A /* initialController.swift */; };
 		51FEDABC2299B1970000690A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FEDABA2299B1970000690A /* Main.storyboard */; };
 		51FEDABF2299B1970000690A /* PrenticeBrothers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51FEDABD2299B1970000690A /* PrenticeBrothers.xcdatamodeld */; };
 		51FEDAC12299B1990000690A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FEDAC02299B1990000690A /* Assets.xcassets */; };
 		51FEDAC42299B1990000690A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FEDAC22299B1990000690A /* LaunchScreen.storyboard */; };
+		51FEDAD22299DCEA0000690A /* BookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FEDAD12299DCEA0000690A /* BookController.swift */; };
+		51FEDAD42299DD550000690A /* LoyaltyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FEDAD32299DD550000690A /* LoyaltyController.swift */; };
+		51FEDAD62299DD6C0000690A /* SocialMediaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FEDAD52299DD6C0000690A /* SocialMediaController.swift */; };
+		51FEDAD82299DD7E0000690A /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FEDAD72299DD7E0000690A /* LocationController.swift */; };
+		51FEDADE2299DE1D0000690A /* Book.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FEDADD2299DE1D0000690A /* Book.storyboard */; };
+		51FEDAE02299DE5C0000690A /* Location.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FEDADF2299DE5C0000690A /* Location.storyboard */; };
+		51FEDAE22299DE7A0000690A /* Loyalty.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FEDAE12299DE7A0000690A /* Loyalty.storyboard */; };
+		51FEDAE42299DE910000690A /* SocialMedia.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FEDAE32299DE910000690A /* SocialMedia.storyboard */; };
+		51FEDAE62299E1AB0000690A /* UIButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FEDAE52299E1AB0000690A /* UIButtonAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51FEDAB32299B1970000690A /* PrenticeBrothers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrenticeBrothers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51FEDAB62299B1970000690A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51FEDAB82299B1970000690A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51FEDAB82299B1970000690A /* initialController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initialController.swift; sourceTree = "<group>"; };
 		51FEDABB2299B1970000690A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51FEDABE2299B1970000690A /* PrenticeBrothers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PrenticeBrothers.xcdatamodel; sourceTree = "<group>"; };
 		51FEDAC02299B1990000690A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51FEDAC32299B1990000690A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51FEDAC52299B1990000690A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51FEDAD12299DCEA0000690A /* BookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookController.swift; sourceTree = "<group>"; };
+		51FEDAD32299DD550000690A /* LoyaltyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyaltyController.swift; sourceTree = "<group>"; };
+		51FEDAD52299DD6C0000690A /* SocialMediaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaController.swift; sourceTree = "<group>"; };
+		51FEDAD72299DD7E0000690A /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		51FEDADD2299DE1D0000690A /* Book.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Book.storyboard; sourceTree = "<group>"; };
+		51FEDADF2299DE5C0000690A /* Location.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Location.storyboard; sourceTree = "<group>"; };
+		51FEDAE12299DE7A0000690A /* Loyalty.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Loyalty.storyboard; sourceTree = "<group>"; };
+		51FEDAE32299DE910000690A /* SocialMedia.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SocialMedia.storyboard; sourceTree = "<group>"; };
+		51FEDAE52299E1AB0000690A /* UIButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,88 @@
 		51FEDAB52299B1970000690A /* PrenticeBrothers */ = {
 			isa = PBXGroup;
 			children = (
-				51FEDAB62299B1970000690A /* AppDelegate.swift */,
-				51FEDAB82299B1970000690A /* ViewController.swift */,
-				51FEDABA2299B1970000690A /* Main.storyboard */,
-				51FEDAC02299B1990000690A /* Assets.xcassets */,
-				51FEDAC22299B1990000690A /* LaunchScreen.storyboard */,
-				51FEDAC52299B1990000690A /* Info.plist */,
-				51FEDABD2299B1970000690A /* PrenticeBrothers.xcdatamodeld */,
+				51FEDACE2299B6A20000690A /* Model */,
+				51FEDACD2299B68E0000690A /* View */,
+				51FEDACB2299B5580000690A /* Supporting Files */,
 			);
 			path = PrenticeBrothers;
+			sourceTree = "<group>";
+		};
+		51FEDACB2299B5580000690A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51FEDAB62299B1970000690A /* AppDelegate.swift */,
+				51FEDABD2299B1970000690A /* PrenticeBrothers.xcdatamodeld */,
+				51FEDAC52299B1990000690A /* Info.plist */,
+				51FEDAE52299E1AB0000690A /* UIButtonAnimation.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51FEDACC2299B6620000690A /* Initial Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51FEDAB82299B1970000690A /* initialController.swift */,
+				51FEDABA2299B1970000690A /* Main.storyboard */,
+			);
+			path = "Initial Controller";
+			sourceTree = "<group>";
+		};
+		51FEDACD2299B68E0000690A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51FEDAC02299B1990000690A /* Assets.xcassets */,
+				51FEDAC22299B1990000690A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51FEDACE2299B6A20000690A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51FEDACC2299B6620000690A /* Initial Controller */,
+				51FEDAD92299DDCE0000690A /* Book Controller */,
+				51FEDADA2299DDD90000690A /* Social Media Controller */,
+				51FEDADB2299DDF70000690A /* Location Controller */,
+				51FEDADC2299DE010000690A /* Loyalty Controller */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51FEDAD92299DDCE0000690A /* Book Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51FEDADD2299DE1D0000690A /* Book.storyboard */,
+				51FEDAD12299DCEA0000690A /* BookController.swift */,
+			);
+			path = "Book Controller";
+			sourceTree = "<group>";
+		};
+		51FEDADA2299DDD90000690A /* Social Media Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51FEDAE32299DE910000690A /* SocialMedia.storyboard */,
+				51FEDAD52299DD6C0000690A /* SocialMediaController.swift */,
+			);
+			path = "Social Media Controller";
+			sourceTree = "<group>";
+		};
+		51FEDADB2299DDF70000690A /* Location Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51FEDADF2299DE5C0000690A /* Location.storyboard */,
+				51FEDAD72299DD7E0000690A /* LocationController.swift */,
+			);
+			path = "Location Controller";
+			sourceTree = "<group>";
+		};
+		51FEDADC2299DE010000690A /* Loyalty Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51FEDAE12299DE7A0000690A /* Loyalty.storyboard */,
+				51FEDAD32299DD550000690A /* LoyaltyController.swift */,
+			);
+			path = "Loyalty Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +216,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51FEDAE02299DE5C0000690A /* Location.storyboard in Resources */,
 				51FEDAC42299B1990000690A /* LaunchScreen.storyboard in Resources */,
+				51FEDAE42299DE910000690A /* SocialMedia.storyboard in Resources */,
 				51FEDAC12299B1990000690A /* Assets.xcassets in Resources */,
+				51FEDAE22299DE7A0000690A /* Loyalty.storyboard in Resources */,
 				51FEDABC2299B1970000690A /* Main.storyboard in Resources */,
+				51FEDADE2299DE1D0000690A /* Book.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +233,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51FEDAD42299DD550000690A /* LoyaltyController.swift in Sources */,
 				51FEDABF2299B1970000690A /* PrenticeBrothers.xcdatamodeld in Sources */,
-				51FEDAB92299B1970000690A /* ViewController.swift in Sources */,
+				51FEDAB92299B1970000690A /* initialController.swift in Sources */,
+				51FEDAD62299DD6C0000690A /* SocialMediaController.swift in Sources */,
+				51FEDAE62299E1AB0000690A /* UIButtonAnimation.swift in Sources */,
+				51FEDAD22299DCEA0000690A /* BookController.swift in Sources */,
 				51FEDAB72299B1970000690A /* AppDelegate.swift in Sources */,
+				51FEDAD82299DD7E0000690A /* LocationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6NDRN8ASFY;
-				INFOPLIST_FILE = PrenticeBrothers/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PrenticeBrothers/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +406,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6NDRN8ASFY;
-				INFOPLIST_FILE = PrenticeBrothers/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PrenticeBrothers/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

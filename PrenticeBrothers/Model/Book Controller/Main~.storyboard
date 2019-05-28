@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PrenticeBrothers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="thY-24-FXh">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="VY6-Oz-7c9">
+                                    <size key="itemSize" width="414" height="719"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="HfP-X0-MKK">
+                                        <rect key="frame" x="0.0" y="8.6666666666666661" width="414" height="719"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="719"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BNT-71-vWw">
+                                                    <rect key="frame" x="0.0" y="176" width="414" height="414"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="BNT-71-vWw" firstAttribute="leading" secondItem="HfP-X0-MKK" secondAttribute="leading" id="CZU-tQ-FKS"/>
+                                            <constraint firstAttribute="bottom" secondItem="BNT-71-vWw" secondAttribute="bottom" constant="129" id="J0O-tE-UTj"/>
+                                            <constraint firstItem="BNT-71-vWw" firstAttribute="top" secondItem="HfP-X0-MKK" secondAttribute="top" constant="176" id="OfE-wK-GzT"/>
+                                            <constraint firstAttribute="trailing" secondItem="BNT-71-vWw" secondAttribute="trailing" id="Pf3-LK-UY3"/>
+                                        </constraints>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="rsY-6P-0Ua"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="UMR-0A-Pqh"/>
+                                </connections>
+                            </collectionView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="QHK-7X-070">
+                                <rect key="frame" x="32" y="674" width="350" height="37"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="thY-24-FXh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="A4R-dj-M6g"/>
+                            <constraint firstItem="thY-24-FXh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="GJ1-Qy-cRj"/>
+                            <constraint firstItem="thY-24-FXh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UMe-6Y-Myi"/>
+                            <constraint firstItem="QHK-7X-070" firstAttribute="bottom" secondItem="thY-24-FXh" secondAttribute="bottom" constant="-25" id="Xbh-ZY-tlM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QHK-7X-070" secondAttribute="trailing" constant="32" id="c4K-nt-Mwt"/>
+                            <constraint firstItem="thY-24-FXh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dXQ-5S-WuB"/>
+                            <constraint firstItem="QHK-7X-070" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="y8Q-jv-rU1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="QHK-7X-070" id="eXO-Im-GYT"/>
+                        <outlet property="slideSlowCollectionView" destination="thY-24-FXh" id="v50-uR-dWe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="82.608695652173921" y="20.380434782608699"/>
+        </scene>
+        <!--Location Controller-->
+        <scene sceneID="gXQ-JX-9uX">
+            <objects>
+                <viewController id="lxS-ys-HS1" customClass="LocationController" customModule="PrenticeBrothers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="47g-0q-sPf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="mtd-YU-hL5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bOY-PE-ptS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1068" y="-641"/>
+        </scene>
+        <!--Book Controller-->
+        <scene sceneID="E5K-I5-JJF">
+            <objects>
+                <viewController id="CCt-RB-FYr" customClass="BookController" customModule="PrenticeBrothers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ffp-lq-Azd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Wm3-aN-exZ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MhS-Pb-4bj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1070" y="20"/>
+        </scene>
+        <!--Loyalty Controller-->
+        <scene sceneID="SWa-8Y-Hzw">
+            <objects>
+                <viewController id="BkA-zZ-250" customClass="LoyaltyController" customModule="PrenticeBrothers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XuP-5t-9Cx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Qyc-Pq-tro"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ad-py-yS7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="719"/>
+        </scene>
+        <!--Social Media Controller-->
+        <scene sceneID="gER-mY-MVt">
+            <objects>
+                <viewController id="lNo-zo-aeK" customClass="SocialMediaController" customModule="PrenticeBrothers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q5U-Ok-oO1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="OFH-Gf-Lna"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ONs-D8-KMx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1074" y="686"/>
+        </scene>
+    </scenes>
+</document>
