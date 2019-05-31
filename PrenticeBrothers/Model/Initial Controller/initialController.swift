@@ -12,11 +12,8 @@ import CoreGraphics
 class ViewController: UIViewController {
 
     @IBOutlet weak var slideSlowCollectionView: UICollectionView!
-    
-    #warning("Welcome label is different colors based on the slide show")
-    
-    var imgArr = [  UIImage(named:"image0"),
-                    UIImage(named:"image1"),
+        
+    var imgArr = [  UIImage(named:"image1"),
                     UIImage(named:"image2"),
                     UIImage(named:"image3") ]
     
@@ -63,7 +60,6 @@ class ViewController: UIViewController {
         view.addSubview(myMessages)
         
         let welcomeLabel = UILabel(frame: CGRect(x: view.frame.midX/2, y: view.frame.minY + view.frame.midX/4.5, width: view.frame.width/2, height: 70))
-        #warning("Add the users name(10 is max length) below from core data")
         welcomeLabel.text = "Welcome, Donovan"
         welcomeLabel.adjustsFontSizeToFitWidth = true
         welcomeLabel.numberOfLines = 2

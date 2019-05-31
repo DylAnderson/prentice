@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5104B1BD22A071150067CBFC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5104B1BC22A071150067CBFC /* GoogleService-Info.plist */; };
+		5104B1BF22A075050067CBFC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5104B1BE22A075050067CBFC /* SignUpViewController.swift */; };
 		51FEDAB72299B1970000690A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FEDAB62299B1970000690A /* AppDelegate.swift */; };
 		51FEDAB92299B1970000690A /* initialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FEDAB82299B1970000690A /* initialController.swift */; };
 		51FEDABC2299B1970000690A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FEDABA2299B1970000690A /* Main.storyboard */; };
@@ -22,9 +24,13 @@
 		51FEDAE22299DE7A0000690A /* Loyalty.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FEDAE12299DE7A0000690A /* Loyalty.storyboard */; };
 		51FEDAE42299DE910000690A /* SocialMedia.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FEDAE32299DE910000690A /* SocialMedia.storyboard */; };
 		51FEDAE62299E1AB0000690A /* UIButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FEDAE52299E1AB0000690A /* UIButtonAnimation.swift */; };
+		B8D37ABE6C8D95C38C526D9A /* Pods_PrenticeBrothers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7A41A8FA3AD92F3B74A22F /* Pods_PrenticeBrothers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C7A41A8FA3AD92F3B74A22F /* Pods_PrenticeBrothers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrenticeBrothers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5104B1BC22A071150067CBFC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5104B1BE22A075050067CBFC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		51FEDAB32299B1970000690A /* PrenticeBrothers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrenticeBrothers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51FEDAB62299B1970000690A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51FEDAB82299B1970000690A /* initialController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initialController.swift; sourceTree = "<group>"; };
@@ -42,6 +48,8 @@
 		51FEDAE12299DE7A0000690A /* Loyalty.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Loyalty.storyboard; sourceTree = "<group>"; };
 		51FEDAE32299DE910000690A /* SocialMedia.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SocialMedia.storyboard; sourceTree = "<group>"; };
 		51FEDAE52299E1AB0000690A /* UIButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonAnimation.swift; sourceTree = "<group>"; };
+		8965606DF7951D97E8CE1C4D /* Pods-PrenticeBrothers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrenticeBrothers.debug.xcconfig"; path = "Target Support Files/Pods-PrenticeBrothers/Pods-PrenticeBrothers.debug.xcconfig"; sourceTree = "<group>"; };
+		D8B2E420EC5B7F63A41CBCF8 /* Pods-PrenticeBrothers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrenticeBrothers.release.xcconfig"; path = "Target Support Files/Pods-PrenticeBrothers/Pods-PrenticeBrothers.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D37ABE6C8D95C38C526D9A /* Pods_PrenticeBrothers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +69,8 @@
 			children = (
 				51FEDAB52299B1970000690A /* PrenticeBrothers */,
 				51FEDAB42299B1970000690A /* Products */,
+				B7CF92577AE82FB80F7AA6AC /* Pods */,
+				E2381335640F1144E22C8674 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +95,7 @@
 		51FEDACB2299B5580000690A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5104B1BC22A071150067CBFC /* GoogleService-Info.plist */,
 				51FEDAB62299B1970000690A /* AppDelegate.swift */,
 				51FEDABD2299B1970000690A /* PrenticeBrothers.xcdatamodeld */,
 				51FEDAC52299B1990000690A /* Info.plist */,
@@ -96,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				51FEDAB82299B1970000690A /* initialController.swift */,
+				5104B1BE22A075050067CBFC /* SignUpViewController.swift */,
 				51FEDABA2299B1970000690A /* Main.storyboard */,
 			);
 			path = "Initial Controller";
@@ -158,6 +171,23 @@
 			path = "Loyalty Controller";
 			sourceTree = "<group>";
 		};
+		B7CF92577AE82FB80F7AA6AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8965606DF7951D97E8CE1C4D /* Pods-PrenticeBrothers.debug.xcconfig */,
+				D8B2E420EC5B7F63A41CBCF8 /* Pods-PrenticeBrothers.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2381335640F1144E22C8674 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C7A41A8FA3AD92F3B74A22F /* Pods_PrenticeBrothers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51FEDAC82299B1990000690A /* Build configuration list for PBXNativeTarget "PrenticeBrothers" */;
 			buildPhases = (
+				DE7909DA51ADC1C58D566482 /* [CP] Check Pods Manifest.lock */,
 				51FEDAAF2299B1970000690A /* Sources */,
 				51FEDAB02299B1970000690A /* Frameworks */,
 				51FEDAB12299B1970000690A /* Resources */,
+				178BA6B58555592488BB3831 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5104B1BD22A071150067CBFC /* GoogleService-Info.plist in Resources */,
 				51FEDAE02299DE5C0000690A /* Location.storyboard in Resources */,
 				51FEDAC42299B1990000690A /* LaunchScreen.storyboard in Resources */,
 				51FEDAE42299DE910000690A /* SocialMedia.storyboard in Resources */,
@@ -228,6 +261,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		178BA6B58555592488BB3831 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrenticeBrothers/Pods-PrenticeBrothers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrenticeBrothers/Pods-PrenticeBrothers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrenticeBrothers/Pods-PrenticeBrothers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE7909DA51ADC1C58D566482 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrenticeBrothers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51FEDAAF2299B1970000690A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -239,6 +314,7 @@
 				51FEDAD62299DD6C0000690A /* SocialMediaController.swift in Sources */,
 				51FEDAE62299E1AB0000690A /* UIButtonAnimation.swift in Sources */,
 				51FEDAD22299DCEA0000690A /* BookController.swift in Sources */,
+				5104B1BF22A075050067CBFC /* SignUpViewController.swift in Sources */,
 				51FEDAB72299B1970000690A /* AppDelegate.swift in Sources */,
 				51FEDAD82299DD7E0000690A /* LocationController.swift in Sources */,
 			);
@@ -384,6 +460,7 @@
 		};
 		51FEDAC92299B1990000690A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8965606DF7951D97E8CE1C4D /* Pods-PrenticeBrothers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -402,6 +479,7 @@
 		};
 		51FEDACA2299B1990000690A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B2E420EC5B7F63A41CBCF8 /* Pods-PrenticeBrothers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
